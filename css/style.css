@@ -1,0 +1,66 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  width: 100%;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+.btnhead{
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+  
+}
+.apple{
+  background-color: white;
+}
+.android{
+  border: 1px solid white;
+  color: white;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.testimonial_h3{
+  font-size: 2em;
+
+}
+.dog_img{
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.brands{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
